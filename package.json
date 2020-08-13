@@ -82,6 +82,7 @@
     "lint-dts": "tslint index.d.ts --format verbose",
     "lint-fix": "npm run lint-js -- --fix && npm run lint-dts -- --fix",
     "lint-js": "eslint .",
+    "prepare": "npm run build",
     "prettier": "prettier \"**/*.{js,json,ts,css,md}\"",
     "preversion": "npm run check",
     "start": "webpack-dev-server --mode development",
